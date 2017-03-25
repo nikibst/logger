@@ -1,0 +1,23 @@
+{
+    "name": "bastas/logger",
+    "description": "PHP PSR-7 Logger",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "squizlabs/php_codesniffer": "2.*"
+    },
+    "authors": [
+        {
+            "name": "Nikitas Bastas",
+            "email": "nikitasbst@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/log": "1.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bastas\\Logger\\": "bastas-logger/src"
+        }
+    }
+}
